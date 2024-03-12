@@ -26,122 +26,129 @@ header {
 }
 
 header img {
-    width: 12rem;
+    width: 10rem;
     height: auto;
     margin-right: auto;
 }
 
 header ul li {
     display: inline-block;
-    padding: 0 1.1rem;
+    padding: 0 0.8rem;
     margin-right: 1rem;
-
 }
 
 header ul li a {
     color: black;
     font-family: "Poppins";
-    font-size: 1.4rem;
+    font-size: 1rem;
     transition: all 0.3s ease 0s;
 }
 
 header ul li a:hover {
     color: #EBD96B;
     font-family: "Poppins";
-    font-size: 1.4rem;
+    font-size: 1rem;
     transition: all 0.3s ease 0s;
 }
 
 header button {
-    width: 8rem;
-    height: 3.5rem;
+    width: 7rem;
+    height: 2.5rem;
     border-radius: 10px;
     background-color: black;
     color: white;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     transition: all 0.3s ease 0s;
     border: none;
 }
 
 header button:hover {
-    width: 8rem;
-    height: 3.5rem;
+    width: 7rem;
+    height: 2.5rem;
     /* w/h 2.16 */
     border-radius: 25px;
     background-color: black;
     color: #EBD96B;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     transition: all 0.5s ease 0s;
 }
+
 /* header navbar end */
-/* header banner start */
+/* main banner start */
 
 .banner {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../images/background/backgroundgray.png) no-repeat center;
-    background-size: 94rem 100%;
+    background: url(../images/background/backgroundgray.svg) no-repeat center;
+    background-size: 80% auto;
+    transform: translateY(-3%);
 }
 
 .text {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    transform: translate(-30%);
+    transform: translate(-15%);
+
 }
 
 .text ul li {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    margin: -4%;
+    margin: -12%;
+    margin-top: 2rem;
+    padding: -0.5rem;
 }
 
 .text ul li:nth-child(1) {
-    background:url(../images/background/whiterectangle.png) no-repeat;
-    background-size: 24rem 5.5rem;
+    background: url(../images/background/whiterectangle.png) no-repeat;
+    background-size: 15rem 3.7rem;
 
 }
 
 .text ul li:nth-child(3) {
-    background:url(../images/background/yellowrectangle.png) no-repeat;
-    background-size: 24rem 5.5rem;
+    background: url(../images/background/yellowrectangle.png) no-repeat;
+    background-size: 15rem 3.7rem;
 }
 
 .slogan p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 300;
     margin: 10%;
-    transform: translate(-15%);
+    transform: translate(-25%);
 }
 
 .shopping img {
-    width: 9rem;
+    width: 8rem;
     height: auto;
-    margin-right: 1rem;
+    margin-top: -3rem;
+    transform: translate(-25%);
 }
 
 .shopping button {
-    width: 9rem;
-    height: 3.5rem;
+    margin-bottom: 1rem;
+    width: 7.5rem;
+    height: 3rem;
     border-radius: 7px;
     background-color: black;
     color: white;
     font-family: "Poppins";
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     transition: all 0.3s ease 0s;
     border: none;
+    transform: translate(-10%);
 }
 
 .shopping button:hover {
-    width: 9rem;
-    height: 3.5rem;
+    width: 7.5rem;
+    height: 3rem;
     border-radius: 25px;
     background-color: black;
     color: #EBD96B;
@@ -149,16 +156,18 @@ header button:hover {
     font-weight: 400;
     font-size: 1.2rem;
     transition: all 0.5s ease 0s;
+    transform: translate(-10%);
 }
 
 .bannergirl {
-    width: 40rem;
+    margin-top: 3rem;
+    width: 30rem;
     height: auto;
     transform: translate(25%);
 }
 
-/* header banner end */
-/* header brandbar start */
+/* main banner end */
+/* main brandbar start */
 
 .brandbar {
     display: flex;
@@ -166,26 +175,27 @@ header button:hover {
     justify-content: space-evenly;
     align-items: center;
     background: #EBD96B;
-    padding: 40px 10%;
-    height: 8rem;
+    padding: 30px 10%;
+    height: 5rem;
     margin-top: 2rem;
+    transform: translateY(-28%);
 }
 
 .brandbar img {
     display: inline-block;
-    margin: 3.5rem;
+    margin: 2.5rem;
 }
 
 .brandbar img:nth-child(1) {
-    width: 5rem;
+    width: 3.5rem;
     height: auto;
-    transform: translateY(-2rem);
+    transform: translateY(-2.5rem);
     margin-left: 2rem;
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(1):hover {
-    width: 5rem;
+    width: 3.5rem;
     height: auto;
     transform: translateY(-3rem);
     margin-left: 2rem;
@@ -193,80 +203,80 @@ header button:hover {
 }
 
 .brandbar img:nth-child(2) {
-    width: 5.5rem;
+    width: 5rem;
     height: auto;
-    transform: translateY(-2rem);
+    transform: translateY(-2.3rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(2):hover {
-    width: 5.5rem;
+    width: 5rem;
     height: auto;
-    transform: translateY(-3rem);
+    transform: translateY(-2.8rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(3) {
     width: 8rem;
     height: auto;
-    transform: translateY(0.5rem);
+    transform: translateY(0.2rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(3):hover {
     width: 8rem;
     height: auto;
-    transform: translateY(-0.5rem);
+    transform: translateY(-0.6rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(4) {
-    width: 8rem;
+    width: 7rem;
     height: auto;
-    transform: translateY(-1rem);
+    transform: translateY(-1.5rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(4):hover {
-    width: 8rem;
+    width: 7em;
     height: auto;
     transform: translateY(-2rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(5) {
-    width: 8rem;
+    width: 6rem;
     height: auto;
-    transform: translateY(-1.5rem);
+    transform: translateY(-2rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(5):hover {
-    width: 8rem;
+    width: 6rem;
     height: auto;
     transform: translateY(-2.5rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(6) {
-    width: 8rem;
+    width: 6rem;
     height: auto;
-    transform: translateY(-2rem);
+    transform: translateY(-2.5rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(6):hover {
-    width: 8rem;
+    width: 6rem;
     height: auto;
     transform: translateY(-3rem);
     transition: all 0.5s ease 0s;
 }
 
-/* header brandbar end */
-/* header cardboard start */
+/* main brandbar end */
+/* main cardboard start */
 
 .cardboard {
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin-left: 12.5rem;
     margin-right: 12.5rem;
@@ -274,20 +284,23 @@ header button:hover {
 
 .cdtitle h2 {
     font-family: "Poppins";
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    background: url(../images/deco/yellowleaf.png) no-repeat left ;
-    background-size: 8rem auto;
-    background-position: 9rem 2.5rem;
-    padding-top: 1rem;
-    margin-top: 1rem;
+    background: url(../images/deco/yellowleaf.png) no-repeat left;
+    background-size: 6rem auto;
+    background-position: 6rem 1.0rem;
+    margin-top: 0.5rem;
     margin-bottom: 2rem;
+    transform: translate(-3rem);
 }
+
 
 .cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: -3rem;
+    margin-right: -3rem;
 }
 
 .cards .title {
@@ -306,15 +319,27 @@ header button:hover {
 .cards img {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    width: 27rem;   
+    width: 22rem;
     height: auto;
+    border: none;
+    transition: all 0.5s ease 0s;
 }
 
-/* header cards end */
-/* header event start */
+.cards img:hover {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 22rem;
+    height: auto;
+    border: 2rem;
+    transform: translateY(-1rem);
+    transition: all 0.5s ease 0s;
+}
+
+/* main cards end */
+/* main event start */
 
 .event {
-    background: url(../images/banner/event.png) no-repeat center ;
+    background: url(../images/banner/event.png) no-repeat center;
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -322,20 +347,19 @@ header button:hover {
     padding: 5rem;
 }
 
-.event div{
-    transform: translate(65rem);
+.event div {
+    transform: translate(45rem);
 }
 
-
-
-.event ul{
+.event ul {
     margin-bottom: 4rem;
 }
+
 .event ul li {
     font-family: "Poppins";
     font-size: 2rem;
     font-weight: 900;
-} 
+}
 
 .event ul li:nth-child(1) {
     background: url(../images/background/whiterectangle.png) no-repeat;
@@ -347,10 +371,14 @@ header button:hover {
     font-family: "Poppins";
     font-size: 1.5rem;
     font-weight: 500;
-    padding:-2rem;
-} 
+    padding: -2rem;
+    transform: translateY(-3rem);
+}
 
-
+.event .time {
+    font-weight: 900;
+    margin-top: 1rem;
+}
 
 .event button {
     width: 10rem;
@@ -364,7 +392,7 @@ header button:hover {
     transition: all 0.3s ease 0s;
     border: none;
     transform: translateY(4rem);
-    transform: translate(65rem);
+    transform: translate(45rem);
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
@@ -381,31 +409,254 @@ header button:hover {
     font-size: 1.4rem;
     transition: all 0.5s ease 0s;
     transform: translateY(4rem);
-    transform: translate(65rem);
+    transform: translate(45rem);
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
+/* main event end */
+/* main favourite start */
 
+.favourite {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+}
 
+.favourite h2 {
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: url(../images/deco/yellowleaf.png) no-repeat left;
+    background-size: 7rem auto;
+    background-position: 8rem 1.0rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+    transform: translate(-3rem);
+}
 
+.favcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.favcard img {
+    width: 35rem;
+    height: auto;
+    transition: all 0.5s ease 0s;
+}
 
+.favcard img:hover {
+    width: 35rem;
+    height: auto;
+    transform: translateY(-1rem);
+    transition: all 0.5s ease 0s;
+}
 
+.favcard svg {
+    transform: translate(33rem, -2rem);
+}
 
+.favcard1 {
+    margin-left: 2rem;
+}
 
+.favcard2 {
+    margin-right: 2rem;
+}
 
+/* main favourite end */
+/* main download start */
 
+.download {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
 
+.download h2 {
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
 
+.dlleft {
+    transform: translate(10%, 30%);
+    margin-right: 3rem;
+    padding: 1rem;
+}
 
+.dlleft p {
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
 
+.dlleft .downloadbutton img {
+    width: 8rem;
+    height: 2.6rem;
+}
 
+.dlright img {
+    width: 30rem;
+    transform: translate(-25%);
+}
 
+/* main favourite end */
+/* main download start */
 
+.joinus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    background-color: #E5C643;
+    color: aliceblue;
+}
 
+.joinus h2 {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
 
+.joinus p {
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
 
+.joinus input {
+    width: 22rem;
+    height: 3rem;
+    border: none;
+    margin-bottom: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 300;
+}
 
+.joinus button {
+    width: 5.5rem;
+    height: 2.4rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.1rem;
+    transition: all 0.3s ease 0s;
+    border: none;
+    transform: translate(8rem, -6.7rem);
+}
 
+.joinus button:hover {
+    width: 5.5rem;
+    height: 2.4rem;
+    border-radius: 25px;
+    background-color: black;
+    color: #EBD96B;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.2rem;
+    transition: all 0.5s ease 0s;
+    transform: translate(8rem, -6.7rem);
+}
 
+/* main download end */
+/* footer bottom start */
+
+footer {
+    background-color: black;
+    color: white;
+    transform: translateY(-7rem);
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 6rem;
+}
+
+.bottom h2 {
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.bottom p {
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.bottom .medias ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    transform: translate(-1rem);
+}
+
+.bottom img {
+    width: 3rem;
+    height: auto;
+}
+
+.contactlist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company,
+.quicklink,
+.legal{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+    font-size: 1rem;
+    font-weight: 300;  
+}
+
+.company ul li{
+    padding-bottom:2rem;
+}   
+
+.company ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+.quicklink ul li {
+    padding-bottom:2rem;
+}
+
+.quicklink ul li:nth-child(1) {
+    font-weight: bold;
+}
+ 
+.legal ul li {
+    padding-bottom:2rem;
+}
+
+.legal ul li:nth-child(1) {
+    font-weight: bold;
+}
