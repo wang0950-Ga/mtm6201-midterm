@@ -512,18 +512,20 @@ header button:hover {
     transform: translate(-25%);
 }
 
-/* main favourite end */
-/* main download start */
+/* main download end */
+/* main join us start */
 
 .joinus {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
     background-color: #E5C643;
     color: aliceblue;
+    transform: translateY(16%);
+
 }
 
 .joinus h2 {
@@ -531,7 +533,7 @@ header button:hover {
     font-family: "Poppins";
     font-size: 1.5rem;
     font-weight: 900;
-    margin-top: 4rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
 }
 
@@ -581,13 +583,13 @@ header button:hover {
     transform: translate(8rem, -6.7rem);
 }
 
-/* main download end */
+/* main join us end */
 /* footer bottom start */
 
 footer {
     background-color: black;
-    color: white;
-    transform: translateY(-7rem);
+    color: white;   
+    padding-top: 5rem;
 }
 
 .bottom {
