@@ -15,26 +15,33 @@ link {
     list-style: none;
 }
 
+.mobileversionnav {
+    display: none;
+}
+
 /* header navbar start */
 header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 25px 7%;
     height: fit-content;
 }
 
 header img {
     width: 10rem;
-    height: auto;
-    margin-right: auto;
+    margin-right: 0;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    transform: translate(14vw);  
+    /* How to push this to the right next to signup button without overlap when change screan size?  */
 }
 
 header ul li {
-    display: inline-block;
-    margin-right: 1.8rem;
-    transform: translate(11rem);
+    padding: 0px 10px;
 }
 
 header ul li a {
@@ -76,6 +83,10 @@ header button:hover {
     font-size: 1.2rem;
     transition: all 0.5s ease 0s;
     border: none;
+}
+
+.mobilenav {
+    display: none;
 }
 
 /* header navbar end */
@@ -176,100 +187,109 @@ header button:hover {
     justify-content: space-evenly;
     align-items: center;
     background: #EBD96B;
-    padding: 30px 10%;
+    /* padding: 30px 10%; */
     height: 5rem;
     margin-top: 2rem;
     transform: translateY(-28%);
 }
 
-.brandbar img {
-    display: inline-block;
-    margin: 2.5rem;
+.brandlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .brandbar img:nth-child(1) {
     width: 3.5rem;
     height: auto;
-    transform: translateY(-2.5rem);
-    margin-left: 2rem;
+    /* transform: translateY(-2.5rem); */
+    margin-right: 4rem;
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(1):hover {
     width: 3.5rem;
     height: auto;
-    transform: translateY(-3rem);
-    margin-left: 2rem;
+    transform: translateY(-0.5rem);
+    margin-right: 4rem;
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(2) {
     width: 5rem;
     height: auto;
-    transform: translateY(-2.3rem);
+    margin-right: 4rem;
+    /* transform: translateY(-2.3rem); */
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(2):hover {
     width: 5rem;
     height: auto;
-    transform: translateY(-2.8rem);
+    margin-right: 4rem;
+    transform: translateY(-0.5rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(3) {
     width: 8rem;
     height: auto;
-    transform: translateY(0.2rem);
+    margin-right: 1rem;
+    /* transform: translateY(0.2rem); */
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(3):hover {
     width: 8rem;
     height: auto;
-    transform: translateY(-0.6rem);
+    margin-right: 1rem;
+    transform: translateY(-0.5rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(4) {
     width: 7rem;
     height: auto;
-    transform: translateY(-1.5rem);
+    margin: 2rem;
+    /* transform: translateY(-1.5rem); */
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(4):hover {
     width: 7em;
     height: auto;
-    transform: translateY(-2rem);
+    transform: translateY(-0.5rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(5) {
     width: 6rem;
     height: auto;
-    transform: translateY(-2rem);
+    margin: 2rem;
+    /* transform: translateY(-2rem); */
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(5):hover {
     width: 6rem;
     height: auto;
-    transform: translateY(-2.5rem);
+    transform: translateY(-0.5rem);
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(6) {
     width: 6rem;
     height: auto;
-    transform: translateY(-2.5rem);
+    margin: 2rem;   
+    /* transform: translateY(-2.5rem); */
     transition: all 0.5s ease 0s;
 }
 
 .brandbar img:nth-child(6):hover {
     width: 6rem;
     height: auto;
-    transform: translateY(-3rem);
+    transform: translateY(-0.5rem);
     transition: all 0.5s ease 0s;
 }
 
