@@ -144,7 +144,8 @@ header button {
 /* main brandbar start */
 
 .brandbar {
-    background: #EBD96B;  /* How to make the background full bleed? */
+    background: #EBD96B;
+    /* How to make the background full bleed? */
     height: fit-content;
     display: flex;
     justify-content: space-around;
@@ -191,13 +192,13 @@ header button {
 .brandbar img:nth-child(5) {
     width: 3rem;
     height: auto;
-    transform: translateY(-0.5rem); 
+    transform: translateY(-0.5rem);
 }
 
 .brandbar img:nth-child(6) {
     width: 4rem;
     height: auto;
-    transform: translateY(-0.2rem); 
+    transform: translateY(-0.2rem);
 }
 
 /* main brandbar end */
@@ -233,7 +234,7 @@ header button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end; 
+    align-items: flex-end;
     transform: translateY(3rem)
 }
 
@@ -287,7 +288,7 @@ header button {
     font-size: 0.5rem;
     font-weight: 900;
     margin: -10%;
-    transform:translate(-30%, -1.7rem)
+    transform: translate(-30%, -1.7rem)
 }
 
 .event ul li:nth-child(1) {
@@ -345,11 +346,12 @@ header button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     transform: translateY(-8rem);
 }
 
-.favcard h3, .favcard p {
+.favcard h3,
+.favcard p {
     font-size: 0.7rem;
     transform: translateY(-1rem);
 }
@@ -472,18 +474,19 @@ footer {
     background-color: black;
     color: white;
     padding-top: 5rem;
+    transform: translateY(-15rem);
 }
 
 .bottom {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: start;
+    align-items: center;
     padding: 6rem;
 }
 
 .bottom h2 {
-    text-align: left;
+    text-align: center;
     font-family: "Poppins";
     font-size: 1.5rem;
     font-weight: 900;
@@ -491,7 +494,7 @@ footer {
 }
 
 .bottom p {
-    text-align: left;
+    text-align: center;
     font-family: "Poppins";
     font-size: 1rem;
     font-weight: 300;
@@ -513,39 +516,22 @@ footer {
 
 .contactlist {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .company,
 .quicklink,
 .legal {
-    display: flex;
-    flex-direction: column;
-    padding-right: 4rem;
-    font-size: rem;
-    font-weight: 300;
+    text-align: center;
+    transform: translate(-1.2rem);
+    margin-bottom: 1.5rem;
 }
 
-.company ul li {
-    padding-bottom: 2rem;
-}
-
-.company ul li:nth-child(1) {
-    font-weight: bold;
-}
-
-.quicklink ul li {
-    padding-bottom: 2rem;
-}
-
-.quicklink ul li:nth-child(1) {
-    font-weight: bold;
-}
-
-.legal ul li {
-    padding-bottom: 2rem;
-}
-
+.company ul li:nth-child(1),
+.quicklink ul li:nth-child(1),
 .legal ul li:nth-child(1) {
     font-weight: bold;
+    margin-bottom: 1.5rem;
 }
