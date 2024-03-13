@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;900&display=swap');
 
 .container {
-    max-width: 600px;
+    max-width: 350px;
     margin: 0 auto;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 li,
@@ -35,15 +36,516 @@ header nav {
 }
 
 header button {
-    width: 7rem;
+    width: 5rem;
+    height: 1.8rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+/* header end */
+/* main banner start */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(../images/background/backgroundgray.svg) no-repeat center; */
+    /* background-size: 70% auto; */
+    transform: translateY(-10%);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    transform: translate(60%, 25%);
+
+}
+
+.slogan p {
+    display: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+    /* margin: 10%; */
+    transform: translate(-15%);
+}
+
+.shopping img {
+    display: none;
+    width: 8rem;
+    height: auto;
+    margin-top: -3rem;
+    transform: translate(-25%);
+}
+
+.text ul li {
+    font-size: 0.6rem;
+    font-weight: 900;
+    margin: -20%;
+    /* margin-top: 1rem; */
+    padding: -0.5rem;
+}
+
+.text ul li:nth-child(1) {
+    background: url(../images/background/whiterectangle.png) no-repeat;
+    background-size: 6rem 1.5rem;
+
+}
+
+.text ul li:nth-child(3) {
+    background: url(../images/background/yellowrectangle.png) no-repeat;
+    background-size: 6rem 1.5rem;
+}
+
+.shopping button {
+    width: 3.5rem;
+    height: 1.2rem;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 0.5rem;
+    transform: translate(40%, -10%);
+}
+
+.bannergirl {
+    width: 350px;
+    height: auto;
+    transform: translate(-19%, 20%);
+    z-index: -1;
+    margin-bottom: 1rem;
+}
+
+/* main banner end */
+/* main mobileversionnav start */
+
+.mobileversionnav nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translate(-6.5%, 10%);
+    padding-bottom: 0.5rem;
+}
+
+.mobileversionnav nav ul a {
+    font-size: 0.7rem;
+    color: black;
+    margin: 1rem;
+}
+
+/* main mobileversionnav end */
+/* main brandbar start */
+
+.brandbar {
+    background: #EBD96B;  /* How to make the background full bleed? */
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brandlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    transform: translateY(0.2rem);
+}
+
+.brandlist img {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.brandbar img:nth-child(1) {
+    width: 2rem;
+    height: auto;
+}
+
+.brandbar img:nth-child(2) {
+    width: 2.5rem;
+    height: auto;
+}
+
+.brandbar img:nth-child(3) {
+    width: 4rem;
+    height: auto;
+    transform: translate(-0.5rem);
+}
+
+.brandbar img:nth-child(4) {
+    width: 3rem;
+    height: auto;
+    transform: translateY(-0.5rem);
+}
+
+.brandbar img:nth-child(5) {
+    width: 3rem;
+    height: auto;
+    transform: translateY(-0.5rem); 
+}
+
+.brandbar img:nth-child(6) {
+    width: 4rem;
+    height: auto;
+    transform: translateY(-0.2rem); 
+}
+
+/* main brandbar end */
+/* main cardboard start */
+
+.cardboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.cdtitle h2 {
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    font-weight: 900;
+    background: url(../images/deco/yellowleaf.png) no-repeat left;
+    background-size: 5rem auto;
+    background-position: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    /* transform: translate(-27rem); */
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transform: translate(0.5rem, -2rem);
+}
+
+.cards .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end; 
+    transform: translateY(3rem)
+}
+
+.name {
+    font-size: 0.5rem;
+    transform: translateY(-2rem);
+}
+
+.cards svg {
+    width: 1rem;
+    transform: translate(8rem, -4.5rem);
+}
+
+.cards img {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 9rem;
+    height: auto;
+    border: none;
+}
+
+.card3 {
+    transform: translateY(-4rem);
+}
+
+/* main cards end */
+/* main event start */
+
+.event {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.event img {
+    width: 350px;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-9rem);
+}
+
+.event div {
+    position: relative;
+    z-index: 1;
+    transform: translateY(-7rem);
+}
+
+.event ul li {
+    font-family: "Poppins";
+    font-size: 0.5rem;
+    font-weight: 900;
+    margin: -10%;
+    transform:translate(-30%, -1.7rem)
+}
+
+.event ul li:nth-child(1) {
+    background: url(../images/background/whiterectangle.png) no-repeat;
+    background-size: 5rem 1.5rem;
+}
+
+.event p {
+    font-family: "Poppins";
+    font-size: 0.5rem;
+    font-weight: 400;
+    transform: translate(-0.5rem, -1.7rem);
+    margin-top: -0.5rem;
+}
+
+.event .time {
+    margin-top: 0.5rem;
+    font-weight: 900;
+}
+
+.event button {
+    display: none;
+    width: 3.5rem;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.5rem;
+    border: none;
+}
+
+/* main event end */
+/* main favourite start */
+
+.favourite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-6rem);
+}
+
+.favourite h2 {
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    font-weight: 900;
+    background: url(../images/deco/yellowleaf.png) no-repeat left;
+    background-size: 5rem auto;
+    background-position: 4rem;
+    transform: translateY(-2rem);
+}
+
+.favcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    transform: translateY(-8rem);
+}
+
+.favcard h3, .favcard p {
+    font-size: 0.7rem;
+    transform: translateY(-1rem);
+}
+
+.favcard img {
+    width: 10.5rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.favcard svg {
+    width: 1rem;
+    transform: translate(9.5rem, -3rem);
+}
+
+
+/* main favourite end */
+/* main download start */
+
+.download {
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.download h2 {
+    display: none;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.dlleft {
+    display: none;
+    transform: translate(10%, 30%);
+    margin-right: 3rem;
+    padding: 1rem;
+}
+
+.dlleft p {
+    display: none;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.dlleft .downloadbutton img {
+    display: none;
+    width: 8rem;
+    height: 2.6rem;
+}
+
+.dlright img {
+    display: none;
+    width: 30rem;
+    transform: translate(-25%);
+}
+
+/* main download end */
+/* main join us start */
+
+.joinus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5C643;
+    color: aliceblue;
+    transform: translateY(-15rem);
+}
+
+.joinus h2 {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding-top: 2rem;
+}
+
+.joinus p {
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.joinus input {
+    width: 19rem;
+    height: 2rem;
+    border: none;
+    margin-bottom: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.joinus button {
+    width: 3.5rem;
     height: 1.8rem;
     border-radius: 10px;
     background-color: black;
     color: white;
     font-family: "Poppins";
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.6rem;
+    transform: translate(7.7rem, -6rem);
 }
 
-/* header end */
-/* main banner start */
+/* main join us end */
+/* footer bottom start */
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 5rem;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 6rem;
+}
+
+.bottom h2 {
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.bottom p {
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.bottom .medias ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    transform: translate(-1rem);
+}
+
+.bottom img {
+    width: 3rem;
+    height: auto;
+}
+
+.contactlist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company,
+.quicklink,
+.legal {
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+    font-size: rem;
+    font-weight: 300;
+}
+
+.company ul li {
+    padding-bottom: 2rem;
+}
+
+.company ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+.quicklink ul li {
+    padding-bottom: 2rem;
+}
+
+.quicklink ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+.legal ul li {
+    padding-bottom: 2rem;
+}
+
+.legal ul li:nth-child(1) {
+    font-weight: bold;
+}
