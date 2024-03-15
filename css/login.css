@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;900&display=swap');
 
+li,
+a,
+link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+}
+
 .mainlogin {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -26,6 +35,7 @@
 }
 
 .logoanimation-container .animated-text span h1{
+    font-family:"Poppins" ;
     font-size: 3rem;
     font-weight: 900;
 }
@@ -119,3 +129,111 @@
 .logo svg {
     animation: rotate 8s linear infinite;
 }
+
+.login-container {
+    background: #EBD96B;
+    padding-left: 4rem;    
+}
+
+.navbar {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    transform: translate(-3rem,1rem);
+}
+
+.menu li a {
+    padding: 0.5rem;
+    font-size: small;
+    font-family:"Poppins";
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.menu li a:hover {
+    padding: 0.5rem;
+    font-size: medium;
+    font-family:"Poppins";
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.medias{
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.loginbox {
+    margin-top: -7rem;
+    font-family:"Poppins";
+    transform: translateY(9rem);
+}
+
+.loginbox h1 {
+    font-family:"Poppins";
+    font-size: 2rem;
+}
+
+.loginbox input{
+    width: 20rem;
+    height: 2.5rem;
+    font-family:"Poppins";
+    font-weight: 300;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginbox .submit {
+    width: 6rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease 0s;
+    transform: translate(-20.5rem, 3.5rem);
+    
+}
+
+.loginbox .submit:hover {
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    background-color: black;
+    color:#EBD96B;
+    font-size: 1rem;
+    transition: all 0.3s ease 0s;
+    transform: translate(-20.5rem, 3.5rem);
+}
+
+.loginmore{
+    margin-top: 4rem;
+    transform: translateY(9rem);
+}
+
+.loginmore a{
+    margin-top: 1rem;
+    font-size: small;
+}
+
+.loginmore p{
+    font-family:"Poppins" ;
+    font-size: small;
+
+}
+
+.loginmore h3 {
+    font-family:"Poppins" ;
+
+}
+
+
+
