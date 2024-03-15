@@ -1083,7 +1083,7 @@ footer {
     }
 
     .bannergirl {
-        width: 1480px;
+        width: 1280px;
         height: auto;
         transform: translateY(5%);
         z-index: -1;
@@ -1349,7 +1349,7 @@ footer {
 
     .event img {
         position: absolute;
-        width: 1700px;
+        width: 1600px;
         height: auto;
         z-index: -1;
     }
