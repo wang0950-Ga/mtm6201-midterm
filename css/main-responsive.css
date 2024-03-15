@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;900&display=swap');
 
 .container {
-    max-width: 480px;
+    max-width: 700px;
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -62,7 +62,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    transform: translate(-2rem, 15rem);
+    transform: translate(-2rem, 18rem);
 }
 
 nav ul li a {
@@ -87,12 +87,13 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateY(-20%);
+    transform: translateY(-15%);
     margin-top: 5rem;
+    margin-bottom: -12rem;
 }
 
 .bannergirl {
-    width: 480px;
+    width: 600px;
     height: auto;
     transform: translateY(-15%);
     z-index: -1;
@@ -103,7 +104,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    transform: translate(-5rem, -13rem);
+    transform: translate(-5rem, -16.5rem);
 }
 
 .bannertitle ul {
@@ -112,28 +113,29 @@ nav ul li a:hover {
 
 .bannertitle ul li h1 {
     margin: -0.2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
 .bannertitle ul li:nth-child(1) {
     background: url(../images/background/whiterectangle.png) no-repeat;
-    background-size: 6rem 1.3rem;
+    background-size: 22vw 4.5vh;
 }
 
 .bannertitle ul li:nth-child(3) {
     background: url(../images/background/yellowrectangle.png) no-repeat;
-    background-size: 6rem 1.3rem;
+    background-size: 22vw 4.5vh;
 }
 
 .text p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 300;
     transform: translate(-2rem, -2rem);
 }
 
+
 .shopping {
-    transform: translate(-6.5rem, -15rem);
+    transform: translate(-2rem, -2.5rem); 
 }
 
 .shopping img {
@@ -173,8 +175,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 8rems;
-    margin-top: -15rem;
+    height: 8rem;
+    margin-top: -17rem;
 }
 
 .brandlist {
@@ -287,11 +289,12 @@ nav ul li a:hover {
 .event {
     display: flex;
     flex-direction: column;
+    margin-bottom: 6rem;
 }
 
 .event img {
     position: absolute;
-    width: 480px;
+    width: 680px;
     z-index: -1;
 }
 
@@ -301,7 +304,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 2rem;
-    transform: translate(50%);
+    transform: translate(60%, 10%);
 }
 
 .event ul li {
@@ -330,7 +333,6 @@ nav ul li a:hover {
 }
 
 .event button {
-    display: none;
     width: 4rem;
     height: 1.5rem;
     border-radius: 10px;
@@ -563,10 +565,10 @@ footer {
     margin-bottom: 1.5rem;
 }
 
-@media screen and (min-width:481px) and (max-width: 1024px) {
+@media screen and (min-width:700px) and (max-width: 1200px) {
 
     .container {
-        max-width: 1024px;
+        max-width: 1200px;
         margin: 0 auto;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -574,7 +576,10 @@ footer {
 
     /* header start */
     header {
-        margin-top: 2rem;
+        margin-top: 1vw;
+        margin-bottom:4vw;
+        margin-right:5vw;
+        margin-left:5vw;
     }
 
     .logoandlogin {
@@ -588,60 +593,61 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        transform: translate(2rem, -18.5rem);
+        transform: translate(2rem, -20.5rem);
     }
 
-    header nav li {
-        font-size: small;
+    header nav li a{
+        font-size: 1rem;
         padding: 1rem;
     }
 
     /* header end */
     /* main banner start */
 
+    .banner {
+        margin-top: 4rem;
+    }
+
     .bannergirl {
-        width: 95%;
+        width: 1000px;
         height: auto;
-        transform: translateY(1%);
+        transform: translateY(5%);
         z-index: -1;
     }
 
     .text {
         display: flex;
-        flex-direction: column;
-        justify-content: left;
-        align-items: left;
-        transform: translate(-10rem, -22rem);
+        flex-direction: row;
+        justify-content: flex-start;
     }
 
-    .bannertitle ul {
-        transform: translate(-4.5rem, -1rem);
+    .bannertitle {
+        transform: translate(5rem,-35%);
+        margin-top: -2rem;
     }
 
     .bannertitle ul li h1 {
-        margin: -0.2rem;
         font-size: 2.5rem;
         font-weight: 900;
     }
 
     .bannertitle ul li:nth-child(1) {
         background: url(../images/background/whiterectangle.png) no-repeat;
-        background-size: 12rem 3rem;
+        background-size: 16vw 8vh;
     }
 
     .bannertitle ul li:nth-child(3) {
         background: url(../images/background/yellowrectangle.png) no-repeat;
-        background-size: 12rem 3rem;
+        background-size: 16vw 8vh;
     }
 
     .text p {
         font-size: 1rem;
         font-weight: 300;
-        transform: translate(-2rem, -3rem);
     }
 
     .shopping {
-        transform: translate(-13.5rem, -25rem);
+        transform: translate(-12rem, 9rem);
     }
 
     .shopping img {
@@ -675,7 +681,7 @@ footer {
     /* main brandbar start */
 
     .brandbar {
-        margin-top: -30rem;
+        margin-top: -22rem;
         background: #EBD96B;
         /* padding: 30px 10%; */
         height: 8rem;
@@ -845,10 +851,13 @@ footer {
 
     /* main cards end */
     /* main event start */
+    .event {
+        margin-bottom: 4rem;
+    }
 
     .event img {
         position: absolute;
-        width: 1024px;
+        width: 1170px;
         height: auto;
         z-index: -1;
     }
@@ -856,7 +865,7 @@ footer {
     .event ul {
         margin-bottom: 5%;
         margin-left: 3.5%;
-        transform: translate(-1rem, -5rem);
+        transform: translate(2rem, -3rem);
     }
 
     .event ul li {
@@ -876,7 +885,7 @@ footer {
         font-weight: 500;
         padding: -2rem;
         margin-bottom: 1%;
-        transform: translateY(-6.5rem);
+        transform: translate(2.5rem, -3.5rem);
     }
 
     .event .time {
@@ -895,7 +904,7 @@ footer {
         font-size: 0.8rem;
         transition: all 0.3s ease 0s;
         border: none;
-        transform: translateY(-7.5rem);
+        transform: translate(2.5rem,-4.5rem);
         margin-top: 2rem;
         margin-bottom: 4rem;
     }
@@ -909,7 +918,7 @@ footer {
         font-weight: 400;
         font-size: 0.8rem;
         transition: all 0.5s ease 0s;
-        transform: translateY(-7.5rem);
+        transform: translate(2.5rem,-4.5rem);
         margin-top: 2rem;
         margin-bottom: 4rem;
     }
@@ -1002,7 +1011,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1920px) {
+@media screen and (min-width: 1201px) and (max-width:1920px) {
 
     .container {
         max-width: 1920px;
@@ -1061,67 +1070,71 @@ footer {
 
     nav ul li a:hover {
         color: #EBD96B;
-        font-size: medium;
+        font-size: 0.9rem;
         margin: 1.5rem;
         transition: all 0.3s ease 0s;
     }
 
     /* header end */
     /* main banner start */
+    .banner {
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
 
     .bannergirl {
-        width: 85%;
+        width: 1280px;
         height: auto;
-        transform: translateY(20%);
+        transform: translateY(5%);
         z-index: -1;
     }
 
     .text {
         display: flex;
-        flex-direction: column;
-        justify-content: left;
-        align-items: left;
-        transform: translate(-4rem, -14rem);
+        flex-direction: row;
+        justify-content: flex-start;
     }
-
-    .bannertitle ul {
-        transform: translate(-16rem, -8rem);
+    
+    .bannertitle {
+        transform: translateY(-45%);
+        margin-top: -2rem;
     }
 
     .bannertitle ul li h1 {
-        font-size: 3rem;
+        font-size:3rem;
         font-weight: 900;
         margin: -0.5rem;
     }
 
+    .text p {
+        margin-top: 5vh;
+        font-size: 120%;
+        font-weight: 300;
+    }
+
     .bannertitle ul li:nth-child(1) {
         background: url(../images/background/whiterectangle.png) no-repeat;
-        background-size: 16rem 4rem;
+        background-size: 16vw 8vh;
+        
     }
 
     .bannertitle ul li:nth-child(3) {
         background: url(../images/background/yellowrectangle.png) no-repeat;
-        background-size: 16rem 4rem;
-    }
-
-    .text p {
-        font-size: 1.5rem;
-        font-weight: 300;
-        transform: translate(-14rem, -10rem);
+        background-size: 16vw 8vh;
     }
 
     .shopping {
-        transform: translate(-20rem, -23rem);
+        transform: translate(-17rem, 8rem); 
     }
 
-    .shopping img {
-        width: 8rem;
+    .text img {
+        width: 6rem;
         height: auto;
     }
 
     .shopping button {
-        width: 8rem;
-        height: 3rem;
+        width: 7rem;
+        height: 2.5rem;
         color: white;
         background-color: black;
         border-radius: 5px;
@@ -1131,8 +1144,8 @@ footer {
     }
 
     .shopping button:hover {
-        width: 8rem;
-        height: 3rem;
+        width: 7rem;
+        height: 2.5rem;
         color: #EBD96B;
         background-color: black;
         border-radius: 25px;
@@ -1152,7 +1165,7 @@ footer {
         background: #EBD96B;
         /* padding: 30px 10%; */
         height: 8rem;
-        margin-top: -32rem;
+        margin-top: -27rem;
     }
 
     .brandlist {
@@ -1331,11 +1344,12 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        margin-bottom: -1rem;
     }
 
     .event img {
         position: absolute;
-        width: 100%;
+        width: 1500px;
         height: auto;
         z-index: -1;
     }
