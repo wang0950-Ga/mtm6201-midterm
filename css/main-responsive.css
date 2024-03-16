@@ -62,7 +62,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    transform: translate(-2rem, 18rem);
+    transform: translate(-2rem, 19rem);
 }
 
 nav ul li a {
@@ -176,7 +176,7 @@ nav ul li a:hover {
     justify-content: space-around;
     align-items: center;
     height: 8rem;
-    margin-top: -17rem;
+    margin-top: -19rem;
 }
 
 .brandlist {
@@ -309,20 +309,20 @@ nav ul li a:hover {
 
 .event ul li {
     font-family: "Poppins";
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 900;
     margin: -1rem;
-    transform: translate(-5.5%);
+    transform: translate(-4%);
 }
 
 .event ul li:nth-child(1) {
     background: url(../images/background/whiterectangle.png) no-repeat;
-    background-size: 6rem 1.3rem;
+    background-size: 8rem 2.2rem;
 }
 
 .event p {
     font-family: "Poppins";
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 400;
     margin-top: -0.5rem;
 }
@@ -593,7 +593,7 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        transform: translate(2rem, -20.5rem);
+        transform: translate(2rem, -21.5rem);
     }
 
     header nav li a{
@@ -622,7 +622,7 @@ footer {
     }
 
     .bannertitle {
-        transform: translate(5rem,-20%);
+        transform: translate(1rem,-20%);
         margin-top: -2rem;
     }
 
@@ -633,12 +633,12 @@ footer {
 
     .bannertitle ul li:nth-child(1) {
         background: url(../images/background/whiterectangle.png) no-repeat;
-        background-size: 16vw 8vh;
+        background-size: 16rem 3rem;
     }
 
     .bannertitle ul li:nth-child(3) {
         background: url(../images/background/yellowrectangle.png) no-repeat;
-        background-size: 16vw 8vh;
+        background-size: 16rem 3rem;
     }
 
     .text p {
@@ -647,7 +647,7 @@ footer {
     }
 
     .shopping {
-        transform: translate(-12rem, 13rem);
+        transform: translate(-15.5rem, 13rem);
     }
 
     .shopping img {
@@ -852,7 +852,7 @@ footer {
     /* main cards end */
     /* main event start */
     .event {
-        margin-bottom: 4rem;
+        margin-bottom: 9rem;
     }
 
     .event img {
@@ -1057,7 +1057,7 @@ footer {
     nav ul {
         display: flex;
         justify-content: flex-end;
-        transform: translate(-6rem, -3rem);
+        transform: translate(-8rem, -3.1rem);
         margin-right: 1rem;
     }
 
@@ -1096,8 +1096,9 @@ footer {
     }
     
     .bannertitle {
-        transform: translateY(-45%);
+        transform: translate(-3rem,-45%);
         margin-top: -2rem;
+
     }
 
     .bannertitle ul li h1 {
@@ -1124,7 +1125,7 @@ footer {
     }
 
     .shopping {
-        transform: translate(-17rem, 8rem); 
+        transform: translate(-21.5rem, 9rem); 
     }
 
     .text img {
@@ -1344,7 +1345,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        margin-bottom: -1rem;
+        margin-top: 2rem;
     }
 
     .event img {
