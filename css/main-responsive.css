@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;900&display=swap');
-
+.skip-links { 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skip-links a {
+    position: absolute;
+    text-decoration: none;
+    top:-3em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: .5em 1em;
+    font-weight: bold;
+    font-size: large; 
+  }
+  
+  .skip-links a:focus {
+    top: 0;
+  }
+    
 .container {
     max-width: 700px;
     margin: 0 auto;
@@ -566,6 +588,28 @@ footer {
 }
 
 @media screen and (min-width:700px) and (max-width: 1200px) {
+    .skip-links { 
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .skip-links a {
+        position: absolute;
+        text-decoration: none;
+        top:-3em;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: .5em 1em;
+        font-weight: bold;
+        font-size: large; 
+      }
+      
+      .skip-links a:focus {
+        top: 0;
+      }
 
     .container {
         max-width: 1200px;
@@ -1013,11 +1057,57 @@ footer {
 
 @media screen and (min-width: 1201px) and (max-width:1920px) {
 
+    .skip-links { 
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .skip-links a {
+        position: absolute;
+        text-decoration: none;
+        top:-3em;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: .5em 1em;
+        font-weight: bold;
+        font-size: large; 
+      }
+      
+      .skip-links a:focus {
+        top: 0;
+      }
+
     .container {
         max-width: 1920px;
         margin: 0 auto;
         padding: 0;
     }
+
+    .skip-links { 
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skip-links a {
+  position: absolute;
+  text-decoration: none;
+  top:-3em;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: .5em 1em;
+  font-weight: bold;
+  font-size: large; 
+}
+
+.skip-links a:focus {
+  top: 0;
+}
 
     /* header navbar start */
 

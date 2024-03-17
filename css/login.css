@@ -127,10 +127,6 @@ link {
 
 }
 
-.logo {
-    
-}
-
 .logo svg {
     animation: rotate 8s linear infinite;
 }
@@ -138,6 +134,7 @@ link {
 .login-container {
     background: #EBD96B;
     padding-left: 4rem;    
+    margin-top: -0.5rem;
 }
 
 .navbar {
