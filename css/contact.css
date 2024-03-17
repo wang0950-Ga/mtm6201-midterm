@@ -1,0 +1,238 @@
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li,
+a,
+link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header navbar start */
+
+header {
+    margin-right: 7rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.logoandlogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoandlogin img {
+    width: 10rem;
+    height: auto;
+}
+
+.logoandlogin button {
+    width: 7rem;
+    height: 2.3rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: medium;
+    transition: all 0.3s ease 0s;
+}
+
+.logoandlogin button:hover {
+    width: 7rem;
+    height: 2.3rem;
+    color: #EBD96B;
+    background-color: black;
+    border-radius: 25px;
+    font-weight: 300;
+    font-size: medium;
+    transition: all 0.3s ease 0s;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(-8rem, -3.1rem);
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+    color: #EBD96B;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* header navbar end */
+main {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    display: flex;
+    font-family: "Poppins";
+}
+
+.left .explaination h2 {
+    background: url(../images/deco/yellowleaf.png) no-repeat;
+    background-size: 7rem auto;
+    background-position: 3rem;
+}
+
+.left .explaination p {
+    font-weight: 300;
+}
+
+.left .contactform input {
+    width: 25rem;
+    height: 2rem;
+}
+
+.left .contactform textarea {
+    width: 25rem;
+    height: 4rem;
+}
+
+.contactform .form h3 {
+    font-family: "Poppins";
+    font-weight: 900;
+}
+
+.contactform button {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 0.8rem;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease 0s;
+    transform: translateY(1.5rem);
+}
+
+.contactform button:hover {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 0.9rem;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    background-color: black;
+    color: #EBD96B;
+    transition: all 0.5s ease 0s;
+    transform: translateY(1.5rem);  
+}
+
+.right .map iframe {
+    margin: 1rem;
+    border-radius: 20px;
+    transform: translateY(-0.5rem);  
+}
+
+.right .map h2 {
+    background: url(../images/deco/yellowleaf.png) no-repeat;
+    background-size: 6rem auto;
+    background-position: 2rem;
+}
+
+
+/* footer start */
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 3rem;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 6rem;
+}
+
+.bottom h2 {
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.bottom p {
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.bottom .medias ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.bottom img {
+    width: 3rem;
+    height: auto;
+    transform: translate(-2rem);
+}
+
+.contactlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.company,
+.quicklink,
+.legal {
+    display: flex;
+    flex-direction: row;
+    padding-right: 4rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.legal {
+    transform: translate(-2rem, -0.3rem);
+}
+
+.company ul li {
+    padding-bottom: 2rem;
+}
+
+.company ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+.quicklink ul li {
+    padding-bottom: 2rem;
+}
+
+.quicklink ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+.legal ul li {
+    padding-bottom: 2rem;
+}
+
+.legal ul li:nth-child(1) {
+    font-weight: bold;
+}

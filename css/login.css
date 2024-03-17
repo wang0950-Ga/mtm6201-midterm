@@ -127,9 +127,12 @@ link {
 
 }
 
+.logo {
+    
+}
+
 .logo svg {
     animation: rotate 8s linear infinite;
-    /* transform: translate(5rem, -5rem); */
 }
 
 .login-container {
